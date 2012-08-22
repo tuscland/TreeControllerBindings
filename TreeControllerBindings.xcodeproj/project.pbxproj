@@ -13,6 +13,10 @@
 		91CB457315E5870700FD5CA9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 91CB457115E5870700FD5CA9 /* Credits.rtf */; };
 		91CB457615E5870700FD5CA9 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CB457515E5870700FD5CA9 /* TCAppDelegate.m */; };
 		91CB457915E5870700FD5CA9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CB457715E5870700FD5CA9 /* MainMenu.xib */; };
+		91CB458115E588B100FD5CA9 /* TCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CB458015E588B000FD5CA9 /* TCObject.m */; };
+		91CB458415E589F400FD5CA9 /* NSTreeController+TCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CB458315E589F300FD5CA9 /* NSTreeController+TCExtensions.m */; };
+		91CB458715E58AC900FD5CA9 /* NSTreeNode+TCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CB458615E58AC800FD5CA9 /* NSTreeNode+TCExtensions.m */; };
+		91CB458A15E591D800FD5CA9 /* TCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CB458915E591D700FD5CA9 /* TCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		91CB457415E5870700FD5CA9 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		91CB457515E5870700FD5CA9 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
 		91CB457815E5870700FD5CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		91CB457F15E588B000FD5CA9 /* TCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCObject.h; sourceTree = "<group>"; };
+		91CB458015E588B000FD5CA9 /* TCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCObject.m; sourceTree = "<group>"; };
+		91CB458215E589F300FD5CA9 /* NSTreeController+TCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTreeController+TCExtensions.h"; sourceTree = "<group>"; };
+		91CB458315E589F300FD5CA9 /* NSTreeController+TCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTreeController+TCExtensions.m"; sourceTree = "<group>"; };
+		91CB458515E58AC700FD5CA9 /* NSTreeNode+TCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTreeNode+TCExtensions.h"; sourceTree = "<group>"; };
+		91CB458615E58AC800FD5CA9 /* NSTreeNode+TCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTreeNode+TCExtensions.m"; sourceTree = "<group>"; };
+		91CB458815E591D600FD5CA9 /* TCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCManager.h; sourceTree = "<group>"; };
+		91CB458915E591D700FD5CA9 /* TCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +94,18 @@
 		91CB456815E5870600FD5CA9 /* TreeControllerBindings */ = {
 			isa = PBXGroup;
 			children = (
+				91CB456915E5870600FD5CA9 /* Supporting Files */,
+				91CB457F15E588B000FD5CA9 /* TCObject.h */,
+				91CB458015E588B000FD5CA9 /* TCObject.m */,
+				91CB458815E591D600FD5CA9 /* TCManager.h */,
+				91CB458915E591D700FD5CA9 /* TCManager.m */,
 				91CB457415E5870700FD5CA9 /* TCAppDelegate.h */,
 				91CB457515E5870700FD5CA9 /* TCAppDelegate.m */,
 				91CB457715E5870700FD5CA9 /* MainMenu.xib */,
-				91CB456915E5870600FD5CA9 /* Supporting Files */,
+				91CB458215E589F300FD5CA9 /* NSTreeController+TCExtensions.h */,
+				91CB458315E589F300FD5CA9 /* NSTreeController+TCExtensions.m */,
+				91CB458515E58AC700FD5CA9 /* NSTreeNode+TCExtensions.h */,
+				91CB458615E58AC800FD5CA9 /* NSTreeNode+TCExtensions.m */,
 			);
 			path = TreeControllerBindings;
 			sourceTree = "<group>";
@@ -169,6 +189,10 @@
 			files = (
 				91CB456F15E5870600FD5CA9 /* main.m in Sources */,
 				91CB457615E5870700FD5CA9 /* TCAppDelegate.m in Sources */,
+				91CB458115E588B100FD5CA9 /* TCObject.m in Sources */,
+				91CB458415E589F400FD5CA9 /* NSTreeController+TCExtensions.m in Sources */,
+				91CB458715E58AC900FD5CA9 /* NSTreeNode+TCExtensions.m in Sources */,
+				91CB458A15E591D800FD5CA9 /* TCManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
